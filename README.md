@@ -1,16 +1,41 @@
-# React + Vite
+# Scanpai 📚✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Porque esperar a que traduzcan tu manga favorito es demasiado doloroso 😭📖
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Qué hace
 
-## React Compiler
+Esta pequeña herramienta te permite:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+* 🖼 Cargar páginas de manga
+* 🔲 Dibujar rectángulos sobre los globos de diálogo
+* 🔍 Extraer el texto con OCR
+* 🌐 Traducirlo para poder leer capítulos que aún no están disponibles en tu idioma
 
-## Expanding the ESLint configuration
+Perfecto para cuando el capítulo **ya salió pero nadie lo ha traducido todavía**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Cómo funciona
+
+1. Carga una imagen o página de manga.
+2. Dibuja rectángulos sobre los globos de diálogo.
+3. La app extrae el texto usando OCR.
+4. Usa el texto para traducirlo y entender el capítulo.
+
+## Descargar
+
+Descarga la última versión aquí:
+
+https://github.com/roanhjs/scanpai/releases/latest
+
+## 🚀 Tecnologías
+
+* Tauri
+* Vite
+* React
+* Tesseract
+
+
+---
+
+Hecho para todos los lectores que no pueden esperar a que alguien más traduzca su manga favorito 📖🔥
